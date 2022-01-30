@@ -23,7 +23,7 @@ function priceCard(props) {
               <li className={props.data.reportsEnabler?"":"text-muted"}><span className="fa-li">{props.data.reportsEnabler?<CheckIcon/>:<ClearIcon/>}</span>{props.data.reports}</li>
           </ul>
           <div className="d-grid">
-            <a href="#" className="btn btn-primary text-uppercase">Button</a>
+            <a href="/#" className="btn btn-primary text-uppercase">Button</a>
           </div>
         </div>
       </div>
